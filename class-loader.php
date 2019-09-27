@@ -48,12 +48,12 @@ class Easy_Customizer_Loader extends Easy_Customizer_Helper{
 		$scripts = array(
 			array(
 		        'handler'    => self::with_prefix( 'customize-js' ),
-		        'script'     => 'assets/js/customizer.js',
+		        'script'     => 'easy-wordpress-customizer/assets/customizer.js',
 		        'dependency' => array( 'jquery', 'customize-base', 'jquery-ui-slider' ),
 		    ),
 			array(
 		        'handler' => self::with_prefix( 'customize-css' ),
-		        'style'   => 'assets/css/customizer.css',
+		        'style'   => 'easy-wordpress-customizer/assets/customizer.css',
 		    ),
 		);
 

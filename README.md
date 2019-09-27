@@ -5,16 +5,12 @@ Light weight framework for creating advanced setting fields
 1. Upload the `easy-wordpress-customizer` folder to your `/wp-content/themes/themename` directory 
 2. Activate it by including it in you functions.php
 ```php
-<?php
 require_once get_theme_file_path( '/easy-wordpress-customizer/class-loader.php' );
-?>
 ```
 
 ### Backend Example
 ```php
-<?php
 function typography_options(){ 
-    <?php
     /*
      * ------------------------------------------------------
      *  Call the function set
@@ -23,7 +19,6 @@ function typography_options(){
      * This will call the function in framework.php file from
      * where the pannel, setting and section are added.
      */
-
     Easy_Customizer::set(array(
 
        /**
@@ -446,12 +441,11 @@ function typography_options(){
     ));
 }
 add_action( 'init', 'typography_options' );
-?>
 ```
 
 ### Frontend Example
 ```php
-<?php
+
 # Use 'text-id' && 'textarea-id' 
 # options as a title and tagline
 add_filter( 'document_title_parts', 'my_title' );
