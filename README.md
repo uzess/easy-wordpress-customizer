@@ -1,7 +1,7 @@
 # easy-wordpress-customizer
 Light weight framework for creating advanced setting fields
 
-###Installation
+### Installation
 1. Upload the `easy-wordpress-customizer` folder to your `/wp-content/themes/themename` directory 
 2. Activate it by including it in you functions.php
 ```
@@ -10,7 +10,7 @@ Light weight framework for creating advanced setting fields
 ?>
 ```
 
-###Backend Example
+### Backend Example
 ```
 <?php
 	function typography_options(){ 
@@ -449,7 +449,7 @@ Light weight framework for creating advanced setting fields
 ?>
 ```
 
-###Frontend Example
+### Frontend Example
 ```
 <?php
 # Use 'text-id' && 'textarea-id' 
