@@ -4,14 +4,14 @@ Light weight framework for creating advanced setting fields
 ### Installation
 1. Upload the `easy-wordpress-customizer` folder to your `/wp-content/themes/themename` directory 
 2. Activate it by including it in you functions.php
-```
+```php
 <?php
 require_once get_theme_file_path( '/easy-wordpress-customizer/class-loader.php' );
 ?>
 ```
 
 ### Backend Example
-```
+```php
 <?php
 function typography_options(){ 
     <?php
@@ -450,7 +450,7 @@ add_action( 'init', 'typography_options' );
 ```
 
 ### Frontend Example
-```
+```php
 <?php
 # Use 'text-id' && 'textarea-id' 
 # options as a title and tagline
